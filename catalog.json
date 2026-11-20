@@ -1,0 +1,343 @@
+{
+  "site": {
+    "lang": "zh-CN",
+    "title": "Awesome Tech Books",
+    "description": "精选技术书籍的中文版，在线阅读。",
+    "header": {
+      "title": "Awesome Tech Books",
+      "tagline": "精选技术书籍的中文版，在线阅读。"
+    },
+    "ai_note": "这些书都借助 AI 翻译或编写，难免有错，欢迎在各书的仓库提 issue 指正。",
+    "footer": {
+      "note": "各书的许可证见各自仓库的 LICENSE 文件；本首页和共用的网页底层使用 MIT 许可证。",
+      "repo_label": "GitHub 组织",
+      "repo_url": "https://github.com/AwesomeTechBooks"
+    },
+    "home_url": "https://awesometechbooks.github.io/",
+    "repo_url": "https://github.com/AwesomeTechBooks"
+  },
+  "books": [
+    {
+      "id": "rust-book-zh",
+      "title": "Rust 程序设计语言",
+      "original": "The Rust Programming Language · 简体中文译本",
+      "desc": "Rust 官方教程。从安装和第一个程序讲起，覆盖所有权、trait 与生命周期、错误处理、测试、并发与 async、宏等内容，最后带你从零构建一个多线程 Web 服务器。",
+      "accent": "#c2410c",
+      "badge": "Rust",
+      "prebuilt": "html",
+      "tags": [
+        "21 章 + 7 个附录",
+        "译自 2026-09 上游版本",
+        "MIT / Apache-2.0",
+        "AI 翻译"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "rust-book-zh/",
+          "primary": true
+        },
+        {
+          "label": "英文原版",
+          "href": "https://doc.rust-lang.org/book/",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/rust-book-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "[The Rust Programming Language](https://doc.rust-lang.org/book/) 的简体中文译本，译自 2026-09 上游版本（`1500248d`），21 章 + 7 个附录",
+        "license": "MIT / Apache-2.0"
+      }
+    },
+    {
+      "id": "cuda-programming-zh",
+      "title": "CUDA 编程：从并行模型到工程实践",
+      "original": "原创中文教程 · 每章围绕可运行的程序和实测数据",
+      "desc": "从一个 for 循环讲起的 CUDA 教程，书中的数字都在一块 RTX 5060 笔记本显卡上实测得到。覆盖合并访问、shared memory、用 Nsight Compute 找瓶颈、stream 与 CUDA Graph、cluster 与 TMA 等现代协作机制、常用库，用一个分子动力学案例把它们串起来，最后是多 GPU、VMM、图形互操作和浮点结果这些系统层面的话题。",
+      "accent": "#0f766e",
+      "badge": "CUDA",
+      "tags": [
+        "7 部分 · 36 章",
+        "CC BY 4.0 / MIT",
+        "AI 辅助编写",
+        "非 NVIDIA 官方文档"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "cuda-programming-zh/",
+          "primary": true
+        },
+        {
+          "label": "官方编程指南",
+          "href": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+          "primary": false
+        },
+        {
+          "label": "旧版（87 章）",
+          "href": "https://winteryangwt.github.io/Awesome-Tech-Books/cuda-programming-zh-legacy/",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/cuda-programming-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "原创中文教程，每章围绕可运行的程序和实测数据，7 部分 36 章；不是 NVIDIA 官方文档",
+        "license": "文字 CC BY 4.0，代码 MIT"
+      }
+    },
+    {
+      "id": "cpp-rules-zh",
+      "title": "C++ 规则新编",
+      "original": "原创中文教程 · 八本经典 C++ 规则书的条目按主题合并重讲",
+      "desc": "把 Effective C++ 系列、Exceptional C++ 三部曲和 C++ Coding Standards 的 410 条规则按主题重新组织：每节把相关的几条串成一条线，讲清它们针对同一个问题的哪一面、新标准改变了什么、今天该怎么写。以 C++20 为基准，标注 C++23/26 的变化；示例都用 Clang 21 编译并在 ASan/UBSan 下实际运行，反例附真实的编译器报错和 sanitizer 报告。",
+      "accent": "#1d4ed8",
+      "badge": "C++",
+      "tags": [
+        "8 部分 · 36 章",
+        "512 个可运行示例",
+        "CC BY 4.0 / MIT",
+        "AI 辅助编写"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "cpp-rules-zh/",
+          "primary": true
+        },
+        {
+          "label": "原书条目索引",
+          "href": "cpp-rules-zh/appendix-index.html",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/cpp-rules-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "原创中文教程，把八本经典 C++ 规则书的 410 条规则按主题合并重讲，以 C++20 为基准补上新标准和工程实践，8 部分 36 章，512 个示例均用 Clang 21 实测",
+        "license": "文字 CC BY 4.0，代码 MIT"
+      }
+    },
+    {
+      "id": "swift-book-zh",
+      "title": "Swift 编程语言",
+      "original": "The Swift Programming Language · 简体中文译本",
+      "desc": "Swift 官方教程。先用一次快速上手看清语言全貌，再从常量、变量和可选类型讲到闭包、协议与泛型、并发、宏和内存安全；语言参考部分给出词法、类型、表达式、语句、声明和特性的精确定义与完整语法。",
+      "accent": "#f05138",
+      "badge": "Swift",
+      "tags": [
+        "Swift 6.4 · 43 章",
+        "译自 2026-09 上游版本",
+        "Apache-2.0",
+        "AI 翻译"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "swift-book-zh/",
+          "primary": true
+        },
+        {
+          "label": "英文原版",
+          "href": "https://docs.swift.org/swift-book/",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/swift-book-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "[The Swift Programming Language](https://docs.swift.org/swift-book/) 的简体中文译本（Swift 6.4），译自 2026-09 上游版本（`1c05984`），语言指南 + 语言参考共 43 章",
+        "license": "Apache-2.0（附 Runtime Library Exception）"
+      }
+    },
+    {
+      "id": "container-k8s-zh",
+      "title": "容器与 Kubernetes 实践",
+      "original": "原创中文教程 · 以 Kubernetes 和 Docker 官方文档为准",
+      "desc": "从进程讲到集群：先用 namespace、cgroup 手工做一个容器，再讲 Docker 的运行、构建与分发、Compose；然后是 Kubernetes 的工作负载、网络与存储、配置与弹性、安全、扩展、交付与运维。以 Kubernetes 1.37 和 Docker Engine 29 为基准，全书用一个自己写的短链服务 shorty 做贯穿示例；示例都在 Docker-in-Docker 实验环境里实际运行过，正文的命令输出由工具生成，每章都有“弄坏它”的排障练习。",
+      "accent": "#7c3aed",
+      "badge": "K8s",
+      "tags": [
+        "9 部分 · 36 章",
+        "278 个可运行示例",
+        "CC BY 4.0 / MIT",
+        "AI 辅助编写"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "container-k8s-zh/",
+          "primary": true
+        },
+        {
+          "label": "实验环境",
+          "href": "container-k8s-zh/appendix-lab.html",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/container-k8s-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "原创中文教程，以 Kubernetes 1.37 / Docker Engine 29 官方文档为准，从 namespace、cgroup 讲到集群运维，9 部分 36 章，278 个示例均在 Docker-in-Docker 实验环境实测",
+        "license": "文字 CC BY 4.0，代码 MIT"
+      }
+    },
+    {
+      "id": "quadruped-control-zh",
+      "title": "四足机器人控制：从关节电机到自主行走",
+      "original": "原创中文教程 · 用 MuJoCo 仿真 Unitree A1 动手实践",
+      "desc": "沿着控制链从下往上讲：关节电机与混合控制律、刚体运动学、单腿和整机的运动学与动力学；然后是状态估计、平衡控制（QP 分配地面反力）、步态与摆动腿轨迹、行走控制器，最后是感知与导航。每一环都有推导、代码和仿真里实际跑出来的结果。示例用 Python + MuJoCo 仿真 A1，没有机器人也能跑；C++ 部分用 Eigen。控制器只用 IMU、关节编码器和足端接触这些真机上也有的读数。",
+      "accent": "#15803d",
+      "badge": "Robot",
+      "tags": [
+        "11 章",
+        "70 个可运行示例",
+        "CC BY 4.0 / MIT",
+        "AI 辅助编写"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "quadruped-control-zh/",
+          "primary": true
+        },
+        {
+          "label": "原书对照",
+          "href": "quadruped-control-zh/appendix-mapping.html",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/quadruped-control-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "原创中文教程，参考《四足机器人控制算法——建模、控制与实践》的章节结构、覆盖其全部 11 章内容，从关节电机讲到小跑和导航，70 个示例用 MuJoCo 仿真 Unitree A1 实测",
+        "license": "文字 CC BY 4.0，代码 MIT"
+      }
+    },
+    {
+      "id": "cpp-concurrency-zh",
+      "title": "C++ 并发与并行编程：线程、内存模型、并行计算与服务器",
+      "original": "原创中文教程 · 三本并发与服务器编程书的内容按主题合编",
+      "desc": "从一个进程里的线程讲到同时应付大量连接的服务器：C++20 标准库是主线，pthread、OpenMP、MPI 和 Linux 系统调用并排对照。讲同步、内存模型和原子操作、无锁结构和内存回收、并行计算、多进程与 IPC、epoll 到 io_uring 的服务器，最后一部分回看旧写法为什么被取代。示例都用 GCC 15 实际编译运行，多线程示例过 ThreadSanitizer，卡死的示例附 gdb 线程栈；图是可以逐步播放的动图。",
+      "accent": "#be123c",
+      "badge": "C++",
+      "tags": [
+        "10 部分 · 42 章",
+        "520 个可运行示例",
+        "CC BY 4.0 / MIT",
+        "AI 辅助编写"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "cpp-concurrency-zh/",
+          "primary": true
+        },
+        {
+          "label": "旧写法迁移表",
+          "href": "cpp-concurrency-zh/appendix-b.html",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/cpp-concurrency-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "原创中文教程，把三本并发与服务器编程书的内容按主题合编，C++20 标准库为主线，pthread、OpenMP、MPI 和 Linux 系统调用并排对照，10 部分 42 章，520 个示例均用 GCC 15 实测",
+        "license": "文字 CC BY 4.0，代码 MIT"
+      }
+    },
+    {
+      "id": "ai-agent-zh",
+      "title": "AI Agent 工程：从一次模型调用到多 agent 系统",
+      "original": "原创中文教程 · Anthropic、OpenAI 的 agent 文章和 MCP、Agent Skills 规范按主题合编",
+      "desc": "先直接调模型 API，从一次请求讲到几十行的 agent 循环；再讲 workflow 模式、工具设计、MCP（规范 2026-07-28）、上下文工程和 Skills、多 agent、护栏与人工介入、评估、harness 与生产，最后用 LangGraph 和 OpenAI Agents SDK 把手写的部分重写一遍做对照。贯穿全书的是一家虚构网上书店的客服 agent。示例用 Python 3.12 调 DeepSeek 的 OpenAI 兼容接口，每个都实际运行过，书里的输出和全部模型请求、响应都是那一次运行的录制；图是可以逐步播放的动图。",
+      "accent": "#a16207",
+      "badge": "Agent",
+      "tags": [
+        "9 部分 · 27 章",
+        "205 个可运行示例",
+        "CC BY 4.0 / MIT",
+        "AI 辅助编写"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "ai-agent-zh/",
+          "primary": true
+        },
+        {
+          "label": "资料来源",
+          "href": "ai-agent-zh/appendix-c.html",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/ai-agent-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "原创中文教程，把 Anthropic、OpenAI 的 agent 工程文章和 MCP、Agent Skills 规范、LangChain 资料按主题合编，从手写 agent 循环讲到多 agent 和生产，9 部分 27 章，205 个示例调用 DeepSeek 实际运行并录制",
+        "license": "文字 CC BY 4.0，代码 MIT"
+      }
+    },
+    {
+      "id": "cmake-visible-zh",
+      "title": "看得见的 CMake",
+      "original": "原创中文教程 · 每个示例都能逐行回放 CMakeLists.txt 的副作用",
+      "desc": "CMake 的副作用大多看不见：作用域里的变量、写进文件的缓存、挂在目标上的属性、到生成阶段才求值的表达式。书里每个示例都在 CMake 自带的调试器下真实运行并逐条命令录制，点开弹出的查看器就能一行一行回放配置、生成、构建、运行四个阶段的变化，每个编译参数都能追回加上它的那一行。从三个阶段和 CMake 语言讲起，经作用域与缓存、目标和用法要求、生成器表达式，到 find_package、FetchContent、安装导出和消费测试、CTest、预设、工具链和策略，最后搭一个完整的库工程骨架。按 CMake 4.2 编写，录制工具也能用在自己的项目上。",
+      "accent": "#a21caf",
+      "badge": "CMake",
+      "badgeStyle": "font-size: 13px",
+      "tags": [
+        "8 部分 · 26 章",
+        "122 个可回放示例",
+        "CC BY 4.0 / MIT",
+        "AI 辅助编写"
+      ],
+      "actions": [
+        {
+          "label": "开始阅读",
+          "href": "cmake-visible-zh/",
+          "primary": true
+        },
+        {
+          "label": "查看器原理",
+          "href": "cmake-visible-zh/appc.html",
+          "primary": false
+        },
+        {
+          "label": "许可证与说明",
+          "href": "https://github.com/AwesomeTechBooks/cmake-visible-zh",
+          "primary": false
+        }
+      ],
+      "readme": {
+        "summary": "原创中文教程，以 CMake 4.2 为准，从三个阶段、作用域和缓存讲到目标与用法要求、依赖、安装导出、测试和工具链，8 部分 26 章；122 个示例都在 CMake 自带的调试器下实际运行并逐条命令录制，书中可以弹出查看器逐行回放变量、缓存、目标属性和文件的变化",
+        "license": "文字 CC BY 4.0，代码 MIT"
+      }
+    }
+  ]
+}
