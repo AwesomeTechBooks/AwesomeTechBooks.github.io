@@ -74,12 +74,12 @@
         },
         {
           "label": "官方编程指南",
-          "href": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+          "href": "https://docs.nvidia.com/cuda/cuda-programming-guide/",
           "primary": false
         },
         {
           "label": "旧版（87 章）",
-          "href": "https://winteryangwt.github.io/Awesome-Tech-Books/cuda-programming-zh-legacy/",
+          "href": "https://github.com/winterYANGWT/Awesome-Tech-Books/blob/main/books/cuda-programming-zh-legacy/src/SUMMARY.md",
           "primary": false
         },
         {
